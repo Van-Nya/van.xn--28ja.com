@@ -25,13 +25,14 @@ function jumpTo(target) {
 }
 
 // Main
-let _delay = DELAY
-function main() {
-    if (_delay === 0) {
-        jumpTo(TARGET);
-    } else {
-        _delay--;
-        setDelay(_delay);
-    }
-}
-setInterval(main, TIMEOUT)
+(function () {
+    let _delay = DELAY;
+    setInterval(function () {
+        if (_delay === 0) {
+            jumpTo(TARGET);
+        } else {
+            _delay--;
+            setDelay(_delay)
+        }
+    }, TIMEOUT)
+})()
