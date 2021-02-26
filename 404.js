@@ -1,3 +1,5 @@
+// Script for jumping to homepage
+
 // Constants
 const SRC = window.location.href;
 const TARGET = SRC.substring(0, SRC.indexOf('/', SRC.indexOf(':') + 3));
