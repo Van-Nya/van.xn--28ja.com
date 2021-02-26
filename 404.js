@@ -1,6 +1,6 @@
 // Constants
 const SRC = window.location.href;
-const TARGET = src.substring(0, SRC.indexOf('/', SRC.indexOf(':') + 3));
+const TARGET = SRC.substring(0, SRC.indexOf('/', SRC.indexOf(':') + 3));
 const TIMEOUT = 1000;
 const DELAY = 5;
 
