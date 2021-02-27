@@ -6,7 +6,7 @@
   <link href="https://van.ここ.com/atom.xml" rel="self"/>
   
   <link href="https://van.ここ.com/"/>
-  <updated>2021-02-27T15:06:12.695Z</updated>
+  <updated>2021-02-27T15:47:58.652Z</updated>
   <id>https://van.ここ.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://van.ここ.com/test/"/>
     <id>https://van.ここ.com/test/</id>
     <published>2021-02-22T03:45:14.000Z</published>
-    <updated>2021-02-27T15:06:12.695Z</updated>
+    <updated>2021-02-27T15:47:58.652Z</updated>
     
     
     <summary type="html">这不是一个测试网站渲染的页面</summary>
@@ -40,7 +40,7 @@
     <link href="https://van.ここ.com/hello-world/"/>
     <id>https://van.ここ.com/hello-world/</id>
     <published>2021-02-21T03:45:14.000Z</published>
-    <updated>2021-02-23T14:57:07.503Z</updated>
+    <updated>2021-02-27T15:46:26.001Z</updated>
     
     
     <summary type="html">Helloworld of Hexo</summary>
