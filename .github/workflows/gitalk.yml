@@ -10,12 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Use Action - 'Close Stale Issues'
-      - name: Use Action - 'Close Stale Issues'
-        uses: actions/stale@v3.0.18
-
       # Close Issues
       - name: Close Issues
+        uses: actions/stale@v3.0.18
         with:
           repo-token: ${{ secrets.ACCESS_TOKEN }}
           only-issue-labels: 'gitalk'
