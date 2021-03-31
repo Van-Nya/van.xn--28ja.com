@@ -15,6 +15,18 @@ jobs:
       - name: Checkout Codes
         uses: actions/checkout@v2
 
+      # Setup Cache Directory
+      - name: Setup Cache Directory
+        uses: actions/cache@v2
+        env:
+          cache-name: auto-closer
+        with:
+          path: ~/.auto-closer
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ env.cache-name }}-
+            ${{ runner.os }}-
+
       # Close Issues
       - name: Close Issues
         uses: Van-Nya/auto-closer@main
