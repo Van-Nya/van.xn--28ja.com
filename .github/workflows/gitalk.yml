@@ -1,0 +1,23 @@
+# My deployer
+name: hexo-deploy
+on: 
+  issues:
+    types: [opened, edited]
+
+jobs:
+  close-issue:
+    name: Close Gitalk Issues
+    runs-on: ubuntu-latest
+
+    steps:
+      # Use Action - 'Close Stale Issues'
+      - name: Use Action - 'Close Stale Issues'
+        uses: actions/stale@v3.0.18
+
+      # Close Issues
+      - name: Close Issues
+        with:
+          repo-token: ${{ secrets.ACCESS_TOKEN }}
+          only-issue-labels: 'gitalk'
+          days-before-issue-stale: 0
+          days-before-issue-close: 0
