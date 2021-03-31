@@ -16,5 +16,5 @@ jobs:
         with:
           repo-token: ${{ secrets.ACCESS_TOKEN }}
           only-issue-labels: 'gitalk'
-          days-before-issue-stale: 0
-          days-before-issue-close: 0
+          days-before-issue-stale: -1
+          days-before-issue-close: -1
