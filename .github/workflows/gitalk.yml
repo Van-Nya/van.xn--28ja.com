@@ -15,6 +15,6 @@ jobs:
         uses: actions/stale@v3.0.18
         with:
           repo-token: ${{ secrets.ACCESS_TOKEN }}
-          only-issue-labels: 'Gitalk'
+          close-issue-label: 'Gitalk'
           days-before-issue-stale: -1
           days-before-issue-close: -1
