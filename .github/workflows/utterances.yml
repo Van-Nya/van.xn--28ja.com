@@ -1,0 +1,35 @@
+# My deployer
+name: hexo-deploy
+on:
+  push:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  close-issue:
+    name: Close Utterances Issues
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout Codes
+      - name: Checkout Codes
+        uses: actions/checkout@v2
+
+      # Setup Cache Directory
+      - name: Setup Cache Directory
+        uses: actions/cache@v2
+        env:
+          cache-name: close-matching-issues
+        with:
+          path: ~/.close-matching-issues
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ env.cache-name }}-
+            ${{ runner.os }}-
+
+      # Close Issues
+      - name: Close Issues
+        uses: lee-dohm/close-matching-issues@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          query: 'author:utterances-bot'
