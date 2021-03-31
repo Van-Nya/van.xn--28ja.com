@@ -17,7 +17,8 @@ jobs:
 
       # Close Issues
       - name: Close Issues
-        uses: bdougie/close-issues-based-on-label@v1.2
+        uses: lowply/auto-closer@v0.0.5
         env:
-          LABEL: Gitalk
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          AC_LABEL: "Gitalk"
+          AC_KEEP: 0
