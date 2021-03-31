@@ -3,7 +3,7 @@ name: hexo-deploy
 on:
   push:
   issues:
-    types: [opened, edited, closed, reopened]
+    types: [opened, edited]
 
 jobs:
   close-issue:
