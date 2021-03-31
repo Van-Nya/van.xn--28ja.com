@@ -31,5 +31,5 @@ jobs:
       - name: Close Issues
         uses: lee-dohm/close-matching-issues@v2
         env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          token: ${{ secrets.ACCESS_TOKEN }}
           query: 'author:utterances-bot'
