@@ -21,4 +21,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           AC_LABEL: "Gitalk"
-          AC_KEEP: 0
+          AC_KEEP: 1
