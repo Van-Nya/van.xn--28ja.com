@@ -17,8 +17,8 @@ jobs:
 
       # Close Issues
       - name: Close Issues
-        uses: lowply/auto-closer@v0.0.5
+        uses: Van-Nya/auto-closer@main
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           AC_LABEL: "Gitalk"
-          AC_KEEP: 1
+          AC_KEEP: 0
