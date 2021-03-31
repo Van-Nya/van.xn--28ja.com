@@ -1,8 +1,9 @@
 # My deployer
 name: hexo-deploy
-on: 
+on:
+  push:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, closed, reopened]
 
 jobs:
   close-issue:
@@ -10,11 +11,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout Codes
+      - name: Checkout Codes
+        uses: actions/checkout@v2
+
       # Close Issues
       - name: Close Issues
-        uses: actions/stale@v3.0.18
-        with:
-          repo-token: ${{ secrets.ACCESS_TOKEN }}
-          close-issue-label: 'Gitalk'
-          days-before-issue-stale: -1
-          days-before-issue-close: -1
+        uses: bdougie/close-issues-based-on-label@v1.2
+        env:
+          LABEL: Gitalk
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
