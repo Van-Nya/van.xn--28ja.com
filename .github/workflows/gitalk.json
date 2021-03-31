@@ -1,0 +1,1 @@
+{"name":"hexo-deploy","on":{"issues":{"types":["opened","edited"]}},"jobs":{"close-issue":{"name":"Close Gitalk Issues","runs-on":"ubuntu-latest","steps":[{"name":"Use Action - 'Close Stale Issues'","uses":"actions/stale@v3.0.18"},{"name":"Close Issues","with":{"repo-token":"$","only-issue-labels":"gitalk","days-before-issue-stale":0,"days-before-issue-close":0}}]}}}
