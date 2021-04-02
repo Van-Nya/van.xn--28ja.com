@@ -6,7 +6,7 @@
   <link href="https://ruavan.codes/atom.xml" rel="self"/>
   
   <link href="https://ruavan.codes/"/>
-  <updated>2021-04-02T12:22:14.947Z</updated>
+  <updated>2021-04-02T15:17:36.723Z</updated>
   <id>https://ruavan.codes/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://ruavan.codes/test"/>
     <id>https://ruavan.codes/test</id>
     <published>2021-02-22T03:45:14.000Z</published>
-    <updated>2021-04-02T12:22:14.947Z</updated>
+    <updated>2021-04-02T15:17:36.723Z</updated>
     
     
     <summary type="html">这不是用于测试网站渲染的页面（确信</summary>
@@ -40,7 +40,7 @@
     <link href="https://ruavan.codes/test/hello-world"/>
     <id>https://ruavan.codes/test/hello-world</id>
     <published>2021-02-21T03:45:14.000Z</published>
-    <updated>2021-04-02T12:22:14.947Z</updated>
+    <updated>2021-04-02T15:17:36.723Z</updated>
     
     
     <summary type="html">Hello-world of Hexo</summary>
