@@ -1,4 +1,4 @@
-# Welcome to [my blog](blog.ruavan.moe "Van_Nya's Nest")
+# Welcome to [my blog](ruavan.one "Van_Nya's Nest")
 
 **English** | [中文](README_CN.md "README_CN.md")
 

@@ -1,4 +1,4 @@
-# 欢迎来到[我的博客](blog.ruavan.moe "Van喵的小窝")
+# 欢迎来到[我的博客](ruavan.one "Van喵的小窝")
 
 [English](README.md "README.md") | **中文**
 

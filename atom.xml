@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Van喵的小窝</title>
-  <icon>https://ruavan.codes/icon.png</icon>
+  <icon>https://ruavan.one/icon.png</icon>
   <subtitle>施工中</subtitle>
-  <link href="https://ruavan.codes/atom.xml" rel="self"/>
+  <link href="https://ruavan.one/atom.xml" rel="self"/>
   
-  <link href="https://ruavan.codes/"/>
-  <updated>2021-04-02T17:03:12.025Z</updated>
-  <id>https://ruavan.codes/</id>
+  <link href="https://ruavan.one/"/>
+  <updated>2021-04-03T12:35:17.680Z</updated>
+  <id>https://ruavan.one/</id>
   
   <author>
     <name>Van_Nya</name>
@@ -18,41 +18,41 @@
   
   <entry>
     <title>这不是测试页面</title>
-    <link href="https://ruavan.codes/test"/>
-    <id>https://ruavan.codes/test</id>
+    <link href="https://ruavan.one/test"/>
+    <id>https://ruavan.one/test</id>
     <published>2021-02-22T03:45:14.000Z</published>
-    <updated>2021-04-02T17:03:12.025Z</updated>
+    <updated>2021-04-03T12:35:17.680Z</updated>
     
     
     <summary type="html">这不是用于测试网站渲染的页面（确信</summary>
     
     
     
-    <category term="Test" scheme="https://ruavan.codes/categories/Test/"/>
+    <category term="Test" scheme="https://ruavan.one/categories/Test/"/>
     
     
-    <category term="Test" scheme="https://ruavan.codes/tags/Test/"/>
+    <category term="Test" scheme="https://ruavan.one/tags/Test/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://ruavan.codes/test/hello-world"/>
-    <id>https://ruavan.codes/test/hello-world</id>
+    <link href="https://ruavan.one/test/hello-world"/>
+    <id>https://ruavan.one/test/hello-world</id>
     <published>2021-02-21T03:45:14.000Z</published>
-    <updated>2021-04-02T17:03:12.025Z</updated>
+    <updated>2021-04-03T12:35:17.680Z</updated>
     
     
     <summary type="html">Hello-world of Hexo</summary>
     
     
     
-    <category term="Test" scheme="https://ruavan.codes/categories/Test/"/>
+    <category term="Test" scheme="https://ruavan.one/categories/Test/"/>
     
     
-    <category term="Test" scheme="https://ruavan.codes/tags/Test/"/>
+    <category term="Test" scheme="https://ruavan.one/tags/Test/"/>
     
-    <category term="Hello-World" scheme="https://ruavan.codes/tags/Hello-World/"/>
+    <category term="Hello-World" scheme="https://ruavan.one/tags/Hello-World/"/>
     
   </entry>
   
