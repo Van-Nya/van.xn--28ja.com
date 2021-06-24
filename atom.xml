@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Van喵的小窝</title>
+  <title>Van_Nya&#39;s Cauldron</title>
   <icon>https://ruavan.one/icon.png</icon>
   <subtitle>施工中</subtitle>
   <link href="https://ruavan.one/atom.xml" rel="self"/>
   
   <link href="https://ruavan.one/"/>
-  <updated>2021-06-22T05:43:39.226Z</updated>
+  <updated>2021-06-24T16:57:01.954Z</updated>
   <id>https://ruavan.one/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://ruavan.one/test"/>
     <id>https://ruavan.one/test</id>
     <published>2021-02-22T03:45:14.000Z</published>
-    <updated>2021-06-22T05:43:39.226Z</updated>
+    <updated>2021-06-24T16:57:01.954Z</updated>
     
     
     <summary type="html">这不是用于测试网站渲染的页面（确信</summary>
@@ -40,7 +40,7 @@
     <link href="https://ruavan.one/test/hello-world"/>
     <id>https://ruavan.one/test/hello-world</id>
     <published>2021-02-21T03:45:14.000Z</published>
-    <updated>2021-06-22T05:43:39.226Z</updated>
+    <updated>2021-06-24T16:57:01.954Z</updated>
     
     
     <summary type="html">Hello-world of Hexo</summary>
